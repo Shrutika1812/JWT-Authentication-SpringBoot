@@ -1,0 +1,14 @@
+package com.example.autowire;
+
+public class Employee {
+
+    private Address address;
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
+    public void show() {
+        System.out.println(address.getCity());
+    }
+}
